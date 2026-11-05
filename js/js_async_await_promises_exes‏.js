@@ -1,4 +1,5 @@
 import fs, { writeFile } from "fs";
+import { myUrl } from "../node/Exercise2";
 
 // 🟢 Beginner Level
 // 1
@@ -109,3 +110,4 @@ async function searchWordInFiles(dir, word){
 searchWordInFiles(".", "hello").then(()=>{
     console.log("Search completed");
 });
+console.log(myUrl.hostname);
