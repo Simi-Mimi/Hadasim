@@ -18,12 +18,6 @@ async function startGame() {
     }),
   });
 
-  // const playerData = await responsePlayers.json();
-
-  // if (!responsePlayers.ok) {
-  //   console.log(playerData);
-  //     throw new Error(playerData.message);
-  // }
 
   const result = await responsePlayers.json();
 
@@ -37,7 +31,7 @@ async function startGame() {
   console.log(`Hello, ${playerName}!`);
   //רמה
   let level = readline.question("Choose difficulty: easy / medium / hard: ");
-  // level = level.toLowerCase().trim();
+  level = level.toLowerCase().trim();
 
   const response = await fetch("http://localhost:3000/api/riddles");
   if (!response.ok) {
