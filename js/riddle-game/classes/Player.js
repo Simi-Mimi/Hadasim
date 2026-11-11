@@ -14,4 +14,8 @@ export class Player {
     console.log("Total time:", (total / 1000).toFixed(2), "seconds");
     console.log("Average time:", (avg / 1000).toFixed(2), "seconds");
   }
+  getTotalTime() {
+    const total = this.times.reduce((sum, time) => sum + time, 0);
+    return Number((total / 1000).toFixed(2));
+}
 }

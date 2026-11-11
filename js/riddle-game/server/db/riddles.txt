@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Easy Math",
+    "taskDescription": "What is 5 + 3?",
+    "correctAnswer": "8",
+    "difficulty": "easy",
+    "timeLimit": 6
+  },
+  {
+    "id": 2,
+    "name": "Simple Subtraction",
+    "taskDescription": "What is 10 - 4?",
+    "correctAnswer": "6",
+    "difficulty": "medium",
+    "timeLimit": 4
+  },
+  {
+    "id": 3,
+    "name": "Multiplication",
+    "taskDescription": "What is 6 * 2?",
+    "correctAnswer": "12",
+    "difficulty": "hard",
+    "timeLimit": 5
+  },
+  {
+    "id": 4,
+    "name": "Easy Math",
+    "taskDescription": "What is 2 + 4?",
+    "correctAnswer": "6",
+    "difficulty": "easy",
+    "timeLimit": 6
+  },
+  {
+    "id": 5,
+    "name": "Easy Math",
+    "taskDescription": "What is 5 + 5?",
+    "correctAnswer": "10",
+    "difficulty": "easy",
+    "timeLimit": 5
+  },
+  {
+    "id": 6,
+    "name": "New Math",
+    "taskDescription": "What is 10 + 5?",
+    "correctAnswer": "15",
+    "difficulty": "easy",
+    "timeLimit": 10
+  }
+]
